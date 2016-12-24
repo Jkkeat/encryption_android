@@ -147,7 +147,7 @@ public class DisplayFile extends AppCompatActivity
     //                3) encrypt filecontent using key
     //                4) filecontent_ciper as encryption result
     //----------------------------------------------------------------------------------------------
-        public Enum<General.Error> Encryption(String Password)
+    public void Encryption(String Password)
     {
         ActivityEncrypt activityEncrypt = new ActivityEncrypt();
         char[] passCode = Password.toCharArray();
